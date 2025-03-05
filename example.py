@@ -38,3 +38,9 @@ plt.xlabel('Size (1000 sqft)');
 
 plt.legend();
 plt.show();
+
+# Example of a prediction
+x_i = 1.2
+cost_1200sqft = W * x_i + B
+
+print(f"${cost_1200sqft:.0f} thousand dollars")
